@@ -6,9 +6,13 @@
 ![license](https://img.shields.io/badge/license-Apache--2.0-green)
 ![status](https://img.shields.io/badge/status-beta-yellow)
 
-Optional `.xlsx` → [JoinSheets](https://github.com/JoinSheets/JoinSheets) source
-converter. Parses a flat spreadsheet into JoinSheets' lazy columnar data format plus a
-matching manifest fragment, entirely in the browser.
+A format converter: imports data from `.xlsx` into a [JoinSheets](https://github.com/JoinSheets/JoinSheets)
+data source. Parses a flat spreadsheet into JoinSheets' data format and generates a
+matching manifest fragment. No installation, no backend, no dependencies to download —
+runs locally, in the browser.
+
+The converter is optional — its absence does not affect [JoinSheets](https://github.com/JoinSheets/JoinSheets)'
+core functionality.
 
 Part of the [JoinSheets](https://github.com/JoinSheets) organization.
 
